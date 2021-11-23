@@ -1,5 +1,5 @@
 import collections
-with open("day6.txt") as file:
+with open("./inputs/day6.txt") as file:
     data = file.read()
     groups = data.split('\n\n')
 

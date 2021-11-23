@@ -1,4 +1,4 @@
-with open('./day8.txt') as file:
+with open('./inputs/day8.txt') as file:
     data = [(line.strip().split(' ')) for line in file]
 
 

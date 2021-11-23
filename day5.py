@@ -1,4 +1,4 @@
-with open("day5.txt") as file:
+with open("./inputs/day5.txt") as file:
     data = [line.strip() for line in file]
 
 binarized = [board.replace('F', '0').replace('B', '1').replace(

@@ -1,6 +1,6 @@
 import itertools
 
-with open('./day9.txt') as file:
+with open('./inputs/day9.txt') as file:
     data = [int(line.strip()) for line in file]
 
 
