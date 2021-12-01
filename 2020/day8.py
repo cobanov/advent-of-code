@@ -1,3 +1,7 @@
+import time
+
+tick = time.time()
+
 with open('./inputs/day8.txt') as file:
     data = [(line.strip().split(' ')) for line in file]
 
@@ -8,7 +12,7 @@ past_locations = []
 command, value = data[location]
 
 while True:
-    past_locations.append(location)
+    past_locations.append()
     command, value = data[location]
     before_location = location
 
@@ -25,3 +29,6 @@ while True:
     if location in past_locations:
         print('Accumulator: ', accumulator)
         break
+
+tack = time.time()
+print(tack-tick)

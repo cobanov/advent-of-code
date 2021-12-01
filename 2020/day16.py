@@ -1,7 +1,6 @@
-from ftplib import error_proto
 
 
-with open('./inputs/day10.txt') as file:
+with open('./inputs/day16.txt') as file:
 
     document = [line.strip() for line in file]
     # Rules
