@@ -11,3 +11,4 @@ My solutions to the [Advent of Code](https://adventofcode.com/) challenges.
   - [Day 5]
   - [Day 6](2021/day6.py)
   - [Day 7](2021/day7.py)
+  - [Day 8](2021/day8.py)
